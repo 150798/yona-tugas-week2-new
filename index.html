@@ -137,22 +137,32 @@
         <!-- Modal Add -->
         <div class="modal fade" id="modaladd" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
+
+
+            <form class="row g-3 needs-validation" novalidate>
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">Add Data</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <input type="text" class="form-control" placeholder="Name..." style="margin-top: 10px;" id="editname">
-                <input type="text" class="form-control" placeholder="Work..." style="margin-top: 10px;" id="editwork">
-                <input type="text" class="form-control" placeholder="Salary..." style="margin-top: 10px;" id="editsalary">
+                <input type="text" class="form-control" placeholder="Name..." style="margin-top: 10px;" id="editname" required>
+                <input type="text" class="form-control" placeholder="Work..." style="margin-top: 10px;" id="editwork" required>
+                <input type="text" class="form-control" placeholder="Salary..." style="margin-top: 10px;" id="editsalary" required>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-warning">Add</button>
+                <button type="submit" class="btn btn-warning">Add</button>
               </div>
             </div>
+          </form>
+
+
           </div>
         </div>
+
+
+
+        
 
 
 
@@ -170,6 +180,7 @@
     
         <script src="js/button-action.js"></script>
         <script src="js/user.js"></script>
+        <script src="js/formvalidasi.js"></script>
            
     
 
