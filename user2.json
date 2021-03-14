@@ -1,0 +1,43 @@
+[
+    {   "id" : "1",
+        "name" : "Yona",
+        "work" : "Backend Dev",
+        "salary" : "Rp. 12.000.000"
+
+    },
+
+    {
+        "id" : "2",
+        "name" : "Astika",
+        "work" : "Backend Dev",
+        "salary" : "Rp. 12.000.000"
+
+    },
+
+    {
+        "id" : "3",
+        "name" : "Bernadetha",
+        "work" : "Backend Dev",
+        "salary" : "Rp. 12.000.000"
+
+    },
+
+    {
+        "id" : "4",
+        "name" : "Hahaha",
+        "work" : "Backend Dev",
+        "salary" : "Rp. 12.000.000"
+
+    },
+
+    {
+        "id" : "5",
+        "name" : "Hihihi",
+        "work" : "Backend Dev",
+        "salary" : "Rp. 12.000.000"
+
+    }
+
+
+
+]
